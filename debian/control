@@ -1,0 +1,13 @@
+Source: warlock
+Maintainer: Matthias Urlichs <matthias@urlichs.de>
+Section: python
+Priority: optional
+Build-Depends: dh-python, python3-setuptools, python3-all, debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: http://github.com/bcwaldon/warlock
+
+Package: python3-warlock
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Python object model built on JSON schema and JSON patch.
+
