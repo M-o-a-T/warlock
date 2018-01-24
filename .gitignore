@@ -5,3 +5,4 @@ warlock.egg-info/
 .tox/
 *.swp
 *.pyc
+/.pybuild/
